@@ -1,0 +1,24 @@
+# Python and local configuration
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+venv_hailo*/
+.env
+.env.*
+*.local.yaml
+*.log
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+
+# Raspberry Pi runtime resources and captures
+/hailo-rpi5-examples/resources/
+hailo_temp_/hailo-rpi5-examples/resources/
+records/
+gstshark_*/
+*.hef
+*.whl
+*.deb
